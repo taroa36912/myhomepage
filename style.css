@@ -1,0 +1,93 @@
+/* 全体のスタイル設定 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eafaf1; /* 淡い緑の背景 */
+    color: #333;
+}
+
+header {
+    background-color: #2d5f3c; /* 濃い緑 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #88b090; /* 中間の緑 */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #d7ecd9; /* 淡い緑 */
+    border-left: 5px solid #2d5f3c; /* 濃い緑の境界線 */
+}
+
+.content-section h2 {
+    color: #2d5f3c; /* セクションタイトルに濃い緑 */
+}
+
+footer {
+    background-color: #2d5f3c; /* フッターも濃い緑 */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.each-program {
+    background-color: #e6f4ea; /* 背景色を淡い緑に */
+    border-left: 5px solid #2d5f3c; /* 濃い緑のボーダー */
+    padding: 15px;
+    margin-bottom: 20px; /* 各プログラム間のスペース */
+}
+
+.each-program h3 {
+    margin-top: 0;
+    color: #2d5f3c; /* タイトルを濃い緑に */
+}
+
+.detail {
+    color: #333; /* 詳細テキストの色 */
+    font-size: 14px;
+}
+
+.reference a {
+    color: #006400; /* 参考URLのリンクを緑に */
+    text-decoration: none;
+}
+
+.reference a:hover {
+    text-decoration: underline; /* ホバー時に下線を追加 */
+}
