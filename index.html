@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>谷内賢翔の自己紹介 - プロフィール・数学・プログラミング</title>    
-    <meta name="description" content="谷内賢翔の自己紹介ページです。数学、プログラミング、ウェブ開発などに関する詳細なプロフィールを紹介しています。">
-    <meta name="keywords" content="谷内賢翔, 自己紹介, プログラミング, 数学, ウェブ開発, Go, Python, JavaScript, アルゴリズム">
+    <title>谷内賢翔の自己紹介 - プロフィール</title>    
+    <meta name="description" content="谷内賢翔の自己紹介ページです。プロフィールを紹介しています。">
+    <meta name="keywords" content="谷内賢翔, 自己紹介, プロフィール, 数学, プログラミング">
     <meta name="author" content="谷内賢翔">    
-    <meta property="og:title" content="谷内賢翔の自己紹介 - プロフィール・数学・プログラミング">
-    <meta property="og:description" content="谷内賢翔の数学、プログラミングのスキルやプロジェクトを紹介するページです。">
+    <meta property="og:title" content="谷内賢翔の自己紹介 - プロフィール">
+    <meta property="og:description" content="谷内賢翔の自己紹介ページです。">
     <meta property="og:image" content="https://example.com/thumbnail.jpg">
     <meta property="og:url" content="https://example.com">
     <meta property="og:type" content="website">    
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="谷内賢翔の自己紹介 - プロフィール・数学・プログラミング">
-    <meta name="twitter:description" content="谷内賢翔の自己紹介ページです。数学、プログラミングの詳細を紹介しています。">
+    <meta name="twitter:title" content="谷内賢翔の自己紹介 - プロフィール">
+    <meta name="twitter:description" content="谷内賢翔の自己紹介ページです。">
     <meta name="twitter:image" content="https://example.com/thumbnail.jpg">    
     <link rel="canonical" href="https://example.com">    
     <meta name="robots" content="index, follow">
@@ -23,129 +23,22 @@
 </head>
 
 <body>
-    <header>
-        <h1>やちスタジオ</h1>
-        <p>数学、プログラミング、その他のジャンルについて紹介します</p>
-    </header>
+    <div id="header-placeholder"></div>
 
-    <nav>
-        <ul>
-            <li><a href="#profile">プロフィール</a></li>
-            <li><a href="#math">数学</a></li>
-            <li><a href="#programming">プログラミング</a></li>
-            <li><a href="#other">その他</a></li>
-        </ul>
-    </nav>
+    <main>
+        <section id="profile" class="content-section">
+            <h2>プロフィール</h2>
+            <p>名前 : 谷内 賢翔(やち けんしょう)</p>
+            <p>趣味 : 登山・自然・旅(2~3人がよき)</p>
+            <p>学歴 : YNU在学中</p>
+            <p>連絡先 : sp混成軌道</p>
+            <p>楽しかったこと : 高校で授業サボったこと</p>
+            <p>人生目標 : 無人島で自給自足生活する</p>
+        </section>
+    </main>
 
-    <section id="profile" class="content-section">
-        <h2>プロフィール</h2>
-        <p>名前 : 谷内 賢翔(やち けんしょう)</p>
-        <p>趣味 : 登山・自然・旅(2~3人がよき)</p>
-        <p>学歴 : YNU在学中</p>
-        <p>連絡先 : sp混成軌道</p>
-        <p>楽しかったこと : 高校で授業サボったこと</p>
-        <p>人生目標 : 無人島で自給自足生活する</p>
-    </section>
+    <div id="footer-placeholder"></div>
 
-    <section id="math" class="content-section">
-        <h2>数学</h2>
-        <p>専門 : 位相幾何学・代数幾何学・圏論など(自称)</p>
-        <p>読書本 : 内田位相, 青雪江, 授業テキスト, rising sea, algebraic topology by Hatcher</p>
-        <p>まだ基礎も履修し終わっていない平凡なのでお手柔らかにお願いします.</p>
-    </section>
-
-    <section id="programming" class="content-section">
-        <h2>プログラミング</h2>
-        <p>専門 : なし(高レイヤー)</p>
-    
-        <!-- 成果物1 -->
-        <div class="each-program">
-            <h3>課題自動通知bot</h3>
-            <p class="detail">大学の課題を管理し、締切前に自動で通知を行うLINE botです。GoとGoogle Cloud Functionsを使用して開発しました。</p>
-            <p>習得した技術 : Go, GCP, AWSなど</p>
-            <p class="reference"><a href="https://github.com/taroa36912/assignment-notification-bot" target="_blank">参考URL: 課題自動通知botのGitHubリポジトリ</a></p>
-        </div>
-    
-        <!-- 成果物2 -->
-        <div class="each-program">
-            <h3>便利グッズ紹介サイト</h3>
-            <p class="detail">アフィリエイト用のwebサイトです. webサイト制作の練習兼ビジネスの練習として開設しましたが, 現在は更新していません.</p>
-            <p>習得した技術 : HTML, CSS, JavaScript</p>
-            <p class="reference"><a href="https://pactures.com" target="_blank">参考URL: 実際のアフィリエイトサイト</a></p>
-        </div>
-
-        <!-- 成果物3 -->
-        <div class="each-program">
-            <h3>Gmail自動通知</h3>
-            <p class="detail">Gmailに来た新規メールを1時間ごとに指定したdiscordチャンネルにwebhookで送信するBOTです. 通知したメールは自動で既読にします. GASで作成しました.</p>
-            <p>習得した技術 : GAS(JavaScript)</p>
-        </div>
-
-        <!-- 成果物4 -->
-        <div class="each-program">
-            <h3>Google Form自動通知</h3>
-            <p class="detail">Google Formを送信した際, その内容をdiscordチャンネルにwebhookで送信するBOTです. GASで作成しました.</p>
-            <p>習得した技術 : GAS(JavaScript)</p>
-        </div>
-        
-        <!-- 成果物5 -->
-        <div class="each-program">
-            <h3>課題自動通知BOT改</h3>
-            <p class="detail">課題自動通知BOTを大幅機能上昇させたものです. 具体的には, discordでのゼミの出席を取る機能, 任意の定期リマインドを作成する機能, 指定した範囲のメッセージを一括削除する機能を追加しました. 定期リマインドについては，自分の設定したリマインドを閲覧したり，削除したりする機能も付随しています. </p>
-            <p class="reference"><a href="https://github.com/taroa36912/discordAssignmentBOT" target="_blank">参考URL : Githubリポジトリ</a></p>
-        </div>
-
-        <!-- 成果物6 -->
-        <div class="each-program">
-            <h3>すごろくゲーム</h3>
-            <p class="detail">サークルのC言語学習プロジェクトの一環でオリジナルすごろくを作成しました.</p>
-            <p class="reference"><a href="https://github.com/Tivo0921/projectC" target="_blank">参考URL: Githubリポジトリ</a></p>
-        </div>
-    
-        <!-- 成果物7 -->
-        <div class="each-program">
-            <h3>ハッカソン(UNO必勝法アルゴリズム)</h3>
-            <p class="detail">オリジナルルールのUNOの必勝法を考えるというハッカソンに出場しました. Pythonで実際にアルゴリズムをプログラム化し, 他の挑戦者と戦うという方式です. プログラムについては, プログラムの型が与えられ, その一部をいじってアルゴリズムを実装していく，というものでした.</p>
-            <p class="reference"><a href="https://github.com/taroa36912/uno" target="_blank">参考URL: Githubリポジトリ</a></p>
-        </div>
-
-        <!-- 成果物8 -->
-        <div class="each-program">
-            <h3>ゲーム制作 1</h3>
-            <p class="detail">友人とともにゲーム制作を行いました. このゲームは初めて作成した，要件定義もしていないつたないもので, ベータ版で作成をやめてしまいました. </p>
-            <p class="reference"><a href="https://github.com/taroa36912/ogreTime" target="_blank">参考URL: Githubリポジトリ</a></p>
-        </div>
-
-        <!-- 成果物9 -->
-        <div class="each-program">
-            <h3>AI自動回答質問フォーム</h3>
-            <p class="detail">Google Formで大学の履修に関することをGoogle Formで質問すると, Twitterで返答が返ってくる, というものです. Dify, Chat GPT, TwitterのAPIを用いて, GASで作成しました.</p>
-            <p class="reference"><a href="https://github.com/taroa36912/beat-helper-pre" target="_blank">参考URL: Githubリポジトリ</a></p>
-        </div>
-
-        <!-- 成果物10 -->
-        <div class="each-program">
-            <h3>音楽紹介サイト</h3>
-            <p class="detail">友人が自作した音楽を無料配布するサイトです. アフィリエイト用のサイト二つ目で, 友人の音楽を世に放出できるようにもしました. こちらは, ChatGPTに全て作成してもらったものです. 現在は更新していません. </p>
-            <p class="reference"><a href="https://allsoundsfree.com" target="_blank">参考URL: 実際のアフィリエイトサイト</a></p>
-        </div>
-
-    </section>
-    
-
-    <section id="other" class="content-section">
-        <h2>その他</h2>
-        <ul>旅行に行った場所
-            <li>イギリス(中3)</li>
-            <li>アイスランド・フランス(高1)</li>
-            <li>オーストラリア(大2)</li>
-            <li>剣ヶ峰(標高3775.6m地点 in Japan)(大3)</li>
-            <li>ベトナム・カンボジア・タイ(大3)</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 自己紹介ページ. All Rights Reserved.</p>
-    </footer>
+    <script src="include.js"></script>
 </body>
 </html>

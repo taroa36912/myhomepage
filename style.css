@@ -91,3 +91,12 @@ footer {
 .reference a:hover {
     text-decoration: underline; /* ホバー時に下線を追加 */
 }
+
+
+/* ナビゲーションのアクティブなリンクのスタイル */
+nav ul li a.active {
+    color: #2d5f3c; /* 濃い緑 */
+    background-color: #eafaf1; /* 淡い緑の背景 */
+    padding: 5px 10px;
+    border-radius: 5px;
+}

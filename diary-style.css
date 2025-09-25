@@ -1,0 +1,30 @@
+/* diary-style.css */
+
+.diary-entry {
+    background-color: #f0f8f0; /* 少し薄い背景色 */
+    border-bottom: 2px solid #88b090; /* 中間の緑で区切り線 */
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.diary-entry:last-child {
+    border-bottom: none; /* 最後のエントリーには区切り線をつけない */
+}
+
+.diary-entry h3 {
+    margin-top: 0;
+    color: #2d5f3c; /* 濃い緑 */
+    border-bottom: 1px solid #d7ecd9;
+    padding-bottom: 10px;
+}
+
+.diary-entry .date {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+    display: block; /* 日付をブロック要素に */
+}
+
+.diary-entry p {
+    line-height: 1.7; /* 行間を少し広げる */
+}
