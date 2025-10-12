@@ -16,63 +16,13 @@
     <main>
         <section id="diary" class="content-section">
             <h2>日記</h2>
-
-            <article class="diary-entry">
-                <h3>東大数理に合格した</h3>
-                <span class="date">2025年9月16日</span>
-                <p>
-                    東大数理の合格発表があり、無事合格することができた。運ゲーに勝っただけである。口頭試問がボロボロだったので数学の勉強をもっと頑張ろうと決意した。
-                </p>
-            </article>
-
-            <article class="diary-entry">
-                <h3>返事が来ない</h3>
-                <span class="date">2025年9月17日</span>
-                <p>
-                    早速メールを出したが返事が来なかった。
-                </p>
-            </article>
-
-            <article class="diary-entry">
-                <h3>東大数理に合格した</h3>
-                <span class="date">2025年9月16日</span>
-                <p>
-                    東大数理の合格発表があり、無事合格することができた。運ゲーに勝っただけである。口頭試問がボロボロだったので数学の勉強をもっと頑張ろうと決意した。
-                </p>
-            </article>
-
-            <article class="diary-entry">
-                <h3>ドタキャン</h3>
-                <span class="date">2025年9月23日</span>
-                <p>
-                    遊びの予定があったがドタキャンされた。悲しい。
-                </p>
-            </article>
-
-            <article class="diary-entry">
-                <h3>リーマン面に関する位相幾何学のセミナー</h3>
-                <span class="date">2025年9月24日</span>
-                <p>
-                    今まで友人に誘われて行くだけのセミナーであったが、初の一人参加セミナーに行った。
-                    この日に逆井さんの発表で、日記をつけるといいことを知り、今日から日記をつけることにした。つまりこれまでの日記はヤラセである。嘘ではない。初めて名だたる先生方や大学院生の方々とお話しできて非常に有意義な時間を過ごせた。
-                    また、葉廣さんと面談をした。これ以上は書かない。
-                </p>
-            </article>
-
-            <article class="diary-entry">
-                <h3>Webサイトの修正</h3>
-                <span class="date">2025年9月25日</span>
-                <p>
-                    今日はウェブサイトのページ分割と共通化を行った。JavaScriptでヘッダーとフッターを読み込むようにしたところ、ローカル環境でCORSエラーが出て少し戸惑った。Live Serverを導入したら一瞬で解決。便利なツールがあるものだと感心した。これでメンテナンス性が格段に上がったはず。これからはコンテンツの充実に集中できる。ここまでAI生成。<br>
-                    また、友人と登山に行く計画を立てていたが、日程を一日勘違いしていたため一日遅らせることにした。なので山積みのタスクを今日完了させることにした。
-                </p>
-            </article>
-
+            <div id="diary-entries-container"></div>
         </section>
     </main>
 
     <div id="footer-placeholder"></div>
 
-    <script src="include.js"></script>
+    <script type="module" src="data.js"></script>
+    <script type="module" src="include.js"></script>
 </body>
 </html>
